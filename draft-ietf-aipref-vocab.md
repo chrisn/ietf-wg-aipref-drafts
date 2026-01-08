@@ -137,11 +137,11 @@ the usage associated with the category.
 
 A statement of preference can indicate preferences
 about some, all, or none of the categories from the vocabulary.
-This can mean that no preference is stated for a given usage category.
+This can mean that the preference is unknown for some usage categories.
 
 Some categories describe a proper subset of the usages of other categories.
 A preference that is stated for the more general category applies
-if no preference is stated for the more specific category.
+if the preference is unknown for the more specific category.
 
 For example, a more general category might be assigned a preference
 that allows the associated usage.
@@ -182,7 +182,7 @@ for variation between implementations.
 
 This specification provides a set of definitions for different
 categories of use, plus a system for associating simple
-preferences to each (allow, disallow, or no preference; see {{model}}).
+preferences to each (allow, disallow, or unknown; see {{model}}).
 
 This specification does not provide any enforcement mechanism
 for those preferences, and conformance to it does not encompass
@@ -319,7 +319,7 @@ as follows:
    recursively apply this process to that category
    and use the result of that process.
 
-3. Otherwise, no preference is stated.
+3. Otherwise, the preference for that category is unknown.
 
 This process results in one of three potential answers:
 allow, disallow, and unknown.
@@ -346,7 +346,7 @@ the following process applies to each usage category:
 * Otherwise, if any statement of preference allows the usage,
   the result is that the usage is allowed.
 
-* Otherwise, no preference is stated.
+* Otherwise, the preference for that category is unknown.
 
 This process ensures that the most restrictive preference applies.
 
@@ -383,8 +383,8 @@ which can be either `y` or `n`; see {{y-or-n}}.
 For example, the following states a preference
 to allow foundation model production ({{train-ai}}),
 disallow search ({{search}}), and
-and states no preference for other categories
-other than subsets of these categories:
+and preference for other categories
+other than subsets of these categories are unknown:
 
 ~~~
 train-ai=y, search=n
@@ -478,26 +478,26 @@ A preference is assigned as follows:
 * If the value is a Token with a value of `n`,
   the associated preference is to disallow that category of use.
 
-* Otherwise, no preference is stated for that category of use.
+* Otherwise, the preference for that category is unknown.
 
 Note that this last alternative includes
 the key being absent from the collection,
 values that are not Tokens,
 and Token values that are other than `y` or `n`.
 All of these are not errors,
-they only result in no preference being inferred.
+they only result in the corresponding preference being unknown.
 
 It is important to note that
 if the same key appears multiple times,
 only the last value is taken.
 This means that duplicating a key could result in unexpected outcomes.
-For example, the following expresses no preferences:
+For example, the following means that preferences are unknown:
 
 ~~~
 train-ai=y, train-ai="n", search=n, search
 ~~~
 
-If the parsing of the Dictionary fails, no preferences are stated.
+If the parsing of the Dictionary fails, preferences are unknown.
 This includes where keys include uppercase characters,
 as this format is case sensitive
 (more correctly, it operates on bytes, not strings).
@@ -507,10 +507,10 @@ Where parameters are used,
 only those parameters associated with the value that is selected
 according to {{Section 4.2.2 of FIELDS}}.
 Parameters can therefore be carried for any preference value,
-including where no preference is expressed.
+including where preferences are unknown.
 
 For example, the following `train-ai` preference has parameters
-even though no preference is expressed:
+even though the preference is unknown:
 
 ~~~
 train-ai;has;parameters="?";
@@ -538,7 +538,8 @@ it only needs to be clear and unambiguous.
 For example, an alternative format
 might only provide the ability to convey preferences
 for a subset of the categories of use.
-A mapping might then define that no preference is associated with other categories.
+A mapping might then define that a preference of unknown
+is associated with other categories.
 
 
 # Security Considerations
