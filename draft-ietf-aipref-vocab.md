@@ -538,7 +538,7 @@ it only needs to be clear and unambiguous.
 For example, an alternative format
 might only provide the ability to convey preferences
 for a subset of the categories of use.
-A mapping might then define that a preference of unknown
+A mapping might then define that an unknown preference
 is associated with other categories.
 
 
