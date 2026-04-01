@@ -183,7 +183,8 @@ There are also some caveats that need to be considered
 as it relates to understanding what preferences are
 (as opposed to what actions might then follow).
 
-A recipient chooses the methods of expressing preferences it recognizes.
+A recipient can only understand preferences expressed
+through mechanisms it has implemented.
 Those methods might be limited to those in {{ATTACH}}
 or it could also include other methods (see {{Section 1.3 of ATTACH}}).
 If a preference is associated with an asset
