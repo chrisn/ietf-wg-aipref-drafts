@@ -382,7 +382,7 @@ which can be either `y` or `n`; see {{y-or-n}}.
 
 For example, the following states a preference
 to allow foundation model production ({{train-ai}}),
-disallow search ({{search}}), and
+disallow search ({{search}}),
 and preference for other categories
 other than subsets of these categories are unknown:
 
@@ -491,10 +491,13 @@ It is important to note that
 if the same key appears multiple times,
 only the last value is taken.
 This means that duplicating a key could result in unexpected outcomes.
-For example, the following means that preferences are unknown:
+For example, the following means that preferences are unknown,
+because the type of the parameter values
+(a boolean and a string respectively)
+are not tokens:
 
 ~~~
-train-ai=y, train-ai="n", search=n, search
+train-ai=y, train-ai, search=n, search="n"
 ~~~
 
 If the parsing of the Dictionary fails, preferences are unknown.
