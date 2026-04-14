@@ -97,26 +97,11 @@ Other means of association might be defined separately in the future.
 This document uses the following terms:
 
 {: newline="true" spacing="compact"}
-Artificial Intelligence (AI):
-: An engineered system of sufficient complexity that,
-  for a given set of human-defined objectives,
-  learns from data to generate outputs
-  such as content, predictions, recommendations, or decisions.
-
-AI Training:
-: The application of machine learning to data
-  to produce or improve a model for an artificial intelligence system.
-
 Asset:
 : A digital file or stream of data, usually with associated metadata.
 
 Declaring party:
 : The entity that expresses a preference with regards to an Asset.
-
-Machine Learning (ML):
-: The processing of data
-  to produce or improve a model that encodes the relationship
-  between the data and human-defined objectives.
 
 Search Application:
 : A search application is a system that enables users
