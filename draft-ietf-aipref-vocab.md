@@ -202,16 +202,20 @@ how that usage corresponds to the usage categories
 where preferences have been stated,
 and the applicable legal context.
 
-Usage preferences can be ignored due to express agreements
-between relevant parties, explicit provisions of law, or
-the exercise of discretion in situations where widely recognized
-priorities justify doing so. Priorities that could justify
-ignoring preferences include—but are not limited to—free
-expression, safety, education, scholarship, research,
+An entity that chooses not to honor preferences
+might do so due to
+express agreements between relevant parties,
+explicit provisions of law, or
+the exercise of discretion in situations
+where widely recognized priorities justify doing so.
+Priorities that could justify ignoring preferences include --
+but are not limited to --
+safety, education, scholarship, research,
 preservation, interoperability, and accessibility.
 
 The following lists examples of cases
-where other priorities could lead someone to ignore expressed preferences
+where other priorities could lead someone
+to choose not to honor expressed preferences
 in a particular situation:
 
 * People with accessibility needs,
