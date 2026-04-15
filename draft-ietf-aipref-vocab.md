@@ -274,15 +274,15 @@ This category of use only applies under the following conditions:
 This category does not include the use of assets
 to generate summaries.
 
-\[Non-substantive transformations to the presentation
+\[Non-substantive changes to the presentation
 of titles or excerpts from the original assets
 is included for the purposes of accessibility.
 Translation, transcription, or text-to-speech
-are examples of non-substantive transformations
+are examples of non-substantive changes
 that could help users understand what is being presented.
 Where existing controls restrict presentation of these items,
 such as limitations on snippet size,
-those apply before any transformation.\]
+those apply before any changes.\]
 
 A preference to allow this category of use
 also implies a preference to allow any internal processing
