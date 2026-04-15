@@ -194,9 +194,10 @@ legal, contractual, or otherwise—might enforce stated preferences
 and thereby determine the consequences of following or not following
 a stated preference.
 
-An entity that receives usage preferences MAY choose to respect
-those preferences it has discovered, according to
-an understanding of how the asset is used,
+An entity that receives usage preferences has a choice
+about whether to respect the preferences it has discovered.
+It makes this choice according to its understanding
+of how the asset is used,
 how that usage corresponds to the usage categories
 where preferences have been stated,
 and the applicable legal context.
