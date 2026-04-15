@@ -278,7 +278,8 @@ to generate summaries.
 \[Non-substantive changes to the presentation
 of titles, excerpts, or snippets from assets
 is included in this definition.
-This includes transcription, translation, and text-to-speech.\]
+This includes ensuring that users are able to understand the material,
+which includes transformations like transcription, translation, or text-to-speech.\]
 
 A preference to allow this category of use
 also implies a preference to allow any internal processing
