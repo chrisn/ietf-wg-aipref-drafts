@@ -268,19 +268,18 @@ This category of use only applies under the following conditions:
   includes a direct reference or link
   to the original location from which the asset was retrieved.
 
-* Only \[verbatim\] excerpts or snippets from the source asset
-  are displayed
+* Only \[verbatim\] excerpts from the source asset are displayed
   to assist users in evaluating the relevance of the result.
 
 This category does not include the use of assets
 to generate summaries.
 
 \[Non-substantive transformations to the presentation
-of titles, excerpts, or snippets from assets
+of titles or excerpts from the original assets
 is included for the purposes of accessibility.
-Non-substantive transformations include
-ensuring that users are able to understand these items,
-which includes translation, transcription, or text-to-speech.
+Translation, transcription, or text-to-speech
+are examples of non-substantive transformations
+that could help users understand what is being presented.
 Where existing controls restrict presentation of these items,
 such as limitations on snippet size,
 those apply before any transformation.\]
