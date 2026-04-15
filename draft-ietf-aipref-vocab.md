@@ -268,7 +268,7 @@ This category of use only applies under the following conditions:
   includes a direct reference or link
   to the original location from which the asset was retrieved.
 
-* Only \[verbatim\] excerpts from the source asset are displayed
+* Only excerpts from the source asset are displayed
   to assist users in evaluating the relevance of the result.
 
 This category does not include the use of assets
