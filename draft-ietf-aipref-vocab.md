@@ -374,7 +374,7 @@ and the dictionary values correspond to explicit preferences,
 which can be either `y` or `n`; see {{y-or-n}}.
 
 For example, the following states a preference
-to allow foundation model production ({{train-ai}}),
+to allow model training ({{train-ai}}),
 disallow search ({{search}}),
 and preference for other categories
 other than subsets of these categories are unknown:
@@ -391,7 +391,7 @@ Each usage category in the vocabulary ({{vocab}}) is mapped to a short textual l
 
 | Category                    | Label       | Reference       |
 |:----------------------------|:------------|:----------------|
-| Foundation Model Production | train-ai    | {{train-ai}}    |
+| AI Model Training           | train-ai    | {{train-ai}}    |
 | Search                      | search      | {{search}}      |
 {: #t-category-labels title="Mappings for Categories"}
 
