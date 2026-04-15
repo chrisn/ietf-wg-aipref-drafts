@@ -262,7 +262,8 @@ The use of one or more assets in a search application
 that direct users to the location of those assets.
 
 This category of use only applies
-where the presentation of an asset in search output
+where the presentation of an asset in search output --
+if selected for presentation --
 includes a direct reference or link
 to the original location from which the asset was retrieved.
 
@@ -272,7 +273,8 @@ can be displayed.
 This category does not include the use of assets
 to generate summaries.
 
-This preference does not apply to any internal processing
+A preference to allow this category of use
+also implies a preference to allow any internal processing
 that is performed on assets by the search application,
 provided that the asset and the outputs of any processing
 is exclusively used by the search application
