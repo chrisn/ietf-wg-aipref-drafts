@@ -184,14 +184,21 @@ This specification provides a set of definitions for different
 categories of use, plus a system for associating simple
 preferences to each (allow, disallow, or unknown; see {{model}}).
 
-This specification does not provide any enforcement mechanism
-for those preferences, and conformance to it does not encompass
-whether preferences are actually respected during data processing.
+The categories of use in the vocabulary (see {{vocab}})
+describe concrete, observable outcomes that depend on the use of assets,
+they seek to avoid describing internal details of implementations
+or their architecture.
 
-Preferences do not themselves create rights or prohibitions,
-either in the positive or the negative. Other mechanisms—technical,
-legal, contractual, or otherwise—might enforce stated preferences
-and thereby determine the consequences of following or not following
+This specification only seeks to ensure that preferences can be understood,
+not provide a means of ensuring that preferences are followed.
+
+Enforcement is not provided by this specification.
+Preferences do not themselves create rights, obligations, or prohibitions,
+either in the positive or the negative.
+Other mechanisms --
+technical, legal, contractual, or otherwise --
+might enforce adherence to these preferences
+and thereby determine the consequences of not following
 a stated preference.
 
 An entity that receives usage preferences has a choice
@@ -202,43 +209,17 @@ how that usage corresponds to the usage categories
 where preferences have been stated,
 and the applicable legal context.
 
-An entity that chooses not to honor preferences
-might do so due to
-express agreements between relevant parties,
-explicit provisions of law, or
-the exercise of discretion in situations
-where widely recognized priorities justify doing so.
-Priorities that could justify ignoring preferences include --
-but are not limited to --
-safety, education, scholarship, research,
-preservation, interoperability, and accessibility.
-
-The following lists examples of cases
-where other priorities could lead someone
-to choose not to honor expressed preferences
-in a particular situation:
-
-* People with accessibility needs,
-  or organizations working on their behalf,
-  might decide to ignore a preference
-  in order to access automated captions
-  or generate accessible formats.
-
-* A cultural heritage organization might decide to ignore a preference
-  in order to provide more useful, reliable, or discoverable access
-  to historical web collections.
-
-* An educational institution might decide to ignore a preference
-  in order to enable scholars to develop or use tools
-  to facilitate scientific or other types of research.
-
-* A website that permits user uploads might decide to ignore a preference
-  in order to develop or use tools that detect harmful content
-  according to established terms of use.
-
-Because enforcement is not provided by this specification,
-the consequences of ignoring preferences could vary
-depending upon how a given legal jurisdiction recognizes preferences.
+Historically, entities have used assets for a variety of reasons.
+This has included a wide array of uses in applications
+including safety, advertising, education, scholarship, research,
+market intelligence, preservation, surveillance, interoperability, and accessibility.
+Those decisions were based on a subjective analysis
+of preexisting signals about preferences
+and an understanding of how the asset would be used in that application.
+The mechanisms in this document might be more direct
+than previous ways of expressing preferences,
+but the same fundamental challenges remain
+when deciding whether to use an asset.
 
 
 # Vocabulary Definition {#vocab}
