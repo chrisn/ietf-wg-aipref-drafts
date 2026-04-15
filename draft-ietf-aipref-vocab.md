@@ -259,25 +259,25 @@ for a narrower set of use cases.
 ## Search {#search}
 
 The use of one or more assets in a search application
-to direct users to the location of the asset.
+that direct users to the location of those assets.
 
-This category of use has the following conditions:
+This category of use only applies
+where the presentation of an asset in search output
+includes a direct reference or link
+to the original location from which the asset was retrieved.
 
-* The presentation of the asset in the search output
-  must include a direct reference or link
-  to the original location from which the asset was retrieved.
-
-* To assist users in evaluating the relevance of the result,
-  excerpts or snippets may be displayed from the source asset.
-
-The internal processing of assets
-to perform tasks such as indexing, ranking, and retrieval
-may involve the use and training of AI/ML models,
-provided that those models are used exclusively by the search application.
-That is, evaluating an asset for potential use is included.
-
+To assist users in evaluating the relevance of the result,
+\[verbatim\] excerpts or snippets from the source asset
+can be displayed.
 This category does not include the use of assets
 to generate summaries.
+
+This preference does not apply to any internal processing
+that is performed on assets by the search application,
+provided that the asset is used exclusively by the search application
+according to the other restrictions in this section.
+This includes the use or training of AI models
+as long as the outputs are only used as described here.
 
 
 ## Vocabulary Extensions {#vocab-extension}
