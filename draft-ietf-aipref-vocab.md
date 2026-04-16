@@ -219,7 +219,7 @@ and an understanding of how the asset would be used in that application.
 The mechanisms in this document might be more direct
 than previous ways of expressing preferences,
 but the same fundamental challenges remain
-when deciding whether to use an asset.
+when deciding whether or not to use an asset.
 
 
 # Vocabulary Definition {#vocab}
