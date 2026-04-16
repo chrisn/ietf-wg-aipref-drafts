@@ -291,8 +291,9 @@ provided that the asset and the outputs of any processing
 is exclusively used by the search application
 according to the other restrictions in this section.
 This admits the use or training of AI models
-as long as the outputs are only used,
-subject to the above conditions.
+as long as the outputs --
+including any model that is trained --
+are only used subject to the above conditions.
 
 
 ## Vocabulary Extensions {#vocab-extension}
