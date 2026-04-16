@@ -578,13 +578,14 @@ This document has no IANA actions.
 
 The following individuals made significant contributions to this document:
 
-* {{{Lila Bailey}}}
 * {{{Cullen Miller}}}
-* {{{Laurent Le Meur}}}
-* {{{Krishna Madhavan}}}
-* {{{Felix Reda}}}
-* {{{Leonard Rosenthol}}}
-* {{{Sebastian Posth}}}
 * {{{Erin Simon}}}
+* {{{Felix Reda}}}
+* {{{Krishna Madhavan}}}
+* {{{Laurent Le Meur}}}
+* {{{Leonard Rosenthol}}}
+* {{{Lila Bailey}}}
+* {{{Nate Hake}}}
+* {{{Sebastian Posth}}}
 * {{{Timid Robot Zehta}}}
 {: spacing="compact"}
