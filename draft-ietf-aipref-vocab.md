@@ -268,8 +268,9 @@ This category of use only applies under the following conditions:
   includes a direct reference or link
   to the original location from which the asset was retrieved.
 
-* Only excerpts from the asset are displayed
-  to assist users in evaluating the relevance of the result.
+* When excerpts from the asset are displayed
+  they are only used to assist users
+  in evaluating the relevance of the result.
 
 This category does not include the use of assets
 to generate summaries.
