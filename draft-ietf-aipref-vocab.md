@@ -244,7 +244,7 @@ This section defines the categories of use in the vocabulary.
 ## AI Model Training Category {#train-ai}
 
 The act of using an asset
-in the production or refinement of the weights of an AI model
+in the production or refinement of an AI model
 that can generate content in one or more modalities
 (text, image, audio, etc...).
 
