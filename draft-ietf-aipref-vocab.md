@@ -197,7 +197,7 @@ Preferences do not themselves create rights, obligations, or prohibitions,
 either in the positive or the negative.
 Other mechanisms --
 technical, legal, contractual, or otherwise --
-might enforce adherence to these preferences
+might enforce adherence or non-adherance to these preferences
 and thereby determine the consequences of not following
 a stated preference.
 
