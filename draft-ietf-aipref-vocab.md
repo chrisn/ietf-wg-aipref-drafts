@@ -191,6 +191,8 @@ or their architecture.
 
 This specification only seeks to ensure that preferences can be understood,
 not provide a means of ensuring that preferences are respected.
+There may be considerations that take precedence over any stated preferences,
+especially when taking the public interest into account.
 
 Enforcement is not provided by this specification.
 Preferences do not themselves create rights, obligations, or prohibitions.
@@ -207,18 +209,6 @@ of how the asset is used,
 how that usage corresponds to the usage categories
 where preferences have been stated,
 and the applicable legal context.
-
-Historically, entities have used assets for a variety of reasons.
-This has included a wide array of uses in applications
-including safety, advertising, education, scholarship, research,
-market intelligence, preservation, surveillance, interoperability, and accessibility.
-Those decisions were based on a subjective analysis
-of pre-existing signals about preferences
-and an understanding of how the asset would be used in that application.
-The mechanisms in this document might be more direct
-than previous ways of expressing preferences,
-but the same fundamental challenges remain
-when deciding whether or not to use an asset.
 
 
 # Vocabulary Definition {#vocab}
