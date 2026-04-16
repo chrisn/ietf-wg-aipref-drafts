@@ -118,10 +118,6 @@ Machine Learning (ML):
   to produce or improve a model that encodes the relationship
   between the data and human-defined objectives.
 
-Search Application:
-: A search application is a system that enables users
-  locate items on the internet or in a specific data store.
-
 
 # Statements of Preference {#model}
 
@@ -258,8 +254,10 @@ for a narrower set of use cases.
 
 ## Search {#search}
 
-The use of one or more assets in a search application
-that direct users to the location of those assets.
+Use of an asset in applications
+where the primary purpose of that application
+is to select assets
+and direct users to the location of those assets.
 
 This category of use only applies under the following conditions:
 
@@ -286,15 +284,18 @@ such as limitations on snippet size,
 those apply before any changes.
 
 A preference to allow this category of use
-also implies a preference to allow any internal processing
-that is performed on assets by the search application,
-provided that the asset and the outputs of any processing
-is exclusively used by the search application
+includes allowing any processing internal to the application
+that is performed on assets.
+Allowing this use is conditional on the outputs of any processing
+being exclusively used by the search application
 according to the other restrictions in this section.
-This admits the use or training of AI models
-as long as the outputs --
-including any model that is trained --
-are only used subject to the above conditions.
+That includes the training of AI models
+using the assets
+and the use of those models
+provided that the resulting models
+and their outputs
+are used exclusively
+in ways that meet the above conditions.
 
 
 ## Vocabulary Extensions {#vocab-extension}
