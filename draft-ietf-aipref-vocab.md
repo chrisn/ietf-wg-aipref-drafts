@@ -190,7 +190,7 @@ they seek to avoid describing internal details of implementations
 or their architecture.
 
 This specification only seeks to ensure that preferences can be understood,
-not provide a means of ensuring that preferences are followed.
+not provide a means of ensuring that preferences are respected.
 
 Enforcement is not provided by this specification.
 Preferences do not themselves create rights, obligations, or prohibitions,
@@ -198,7 +198,7 @@ either in the positive or the negative.
 Other mechanisms --
 technical, legal, contractual, or otherwise --
 might enforce adherence or non-adherance to these preferences
-and thereby determine the consequences of not following
+and thereby determine the consequences of not respecting
 a stated preference.
 
 An entity that receives usage preferences has a choice
