@@ -254,10 +254,9 @@ for a narrower set of use cases.
 
 ## Search {#search}
 
-Use of an asset in applications
-where the primary purpose of that application
-is to select assets
-and direct users to the location of those assets.
+Use of an asset in an application
+that selects assets
+and directs users to the location of those assets.
 
 This category of use only applies under the following conditions:
 
