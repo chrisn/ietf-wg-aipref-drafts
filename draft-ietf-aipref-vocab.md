@@ -193,8 +193,7 @@ This specification only seeks to ensure that preferences can be understood,
 not provide a means of ensuring that preferences are respected.
 
 Enforcement is not provided by this specification.
-Preferences do not themselves create rights, obligations, or prohibitions,
-either in the positive or the negative.
+Preferences do not themselves create rights, obligations, or prohibitions.
 Other mechanisms --
 technical, legal, contractual, or otherwise --
 might enforce adherence or non-adherance to these preferences
