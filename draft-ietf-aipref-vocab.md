@@ -180,7 +180,7 @@ What a recipient then does with that information depends on many factors;
 see {{applicability}}.
 
 There are also some caveats that need to be considered
-as it relates to understanding what preferences are
+as it relates to understanding what the preferences for a given asset are
 (as opposed to what actions might then follow).
 
 A recipient can only understand preferences expressed
@@ -192,15 +192,15 @@ using a method the recipient does not understand or recognize,
 the recipient will remain ignorant of that preference.
 
 Depending on the way in which preferences are expressed,
-a recipient might be unable to tell who has expressed a preference.
+a recipient might be unable to tell the source of the preference.
 Unless the source is explicitly identified,
 no assumptions can be made about where a preference originates.
 For example, preferences in robots.txt (see {{Section 3 of ATTACH}})
-only implies that the operator of a server
+only implies that a server
 is the source of those preferences.
 
 A method of associating preferences with assets
-could explicitly define who is responsible for preferences,
+could explicitly define the source of the preferences,
 which might involve authentication.
 Otherwise, no assumptions can be made about the origin of preferences.
 The apparent source of preferences
