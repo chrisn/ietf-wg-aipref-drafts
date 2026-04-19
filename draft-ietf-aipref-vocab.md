@@ -241,19 +241,12 @@ depending upon how a given legal jurisdiction recognizes preferences.
 This section defines the categories of use in the vocabulary.
 
 
-## Foundation Model Production Category {#train-ai}
+## AI Model Training Category {#train-ai}
 
-The act of using an asset to train or fine-tune a foundation model.
-
-Foundation models are large models that are produced using deep learning
-or other machine learning techniques.
-Foundation models are trained on very large numbers of assets
-so that they can be applied to a wide range of use cases.
-Foundation models typically possess generative capabilities
-in one or more media.
-
-Fine-tuning can specialize a general-purpose foundation model
-for a narrower set of use cases.
+The act of using an asset
+in the production or refinement of an AI model
+that can generate content in one or more modalities
+(text, image, audio, etc...).
 
 
 ## Search {#search}
@@ -381,7 +374,7 @@ and the dictionary values correspond to explicit preferences,
 which can be either `y` or `n`; see {{y-or-n}}.
 
 For example, the following states a preference
-to allow foundation model production ({{train-ai}}),
+to allow model training ({{train-ai}}),
 disallow search ({{search}}),
 and preference for other categories
 other than subsets of these categories are unknown:
@@ -398,7 +391,7 @@ Each usage category in the vocabulary ({{vocab}}) is mapped to a short textual l
 
 | Category                    | Label       | Reference       |
 |:----------------------------|:------------|:----------------|
-| Foundation Model Production | train-ai    | {{train-ai}}    |
+| AI Model Training           | train-ai    | {{train-ai}}    |
 | Search                      | search      | {{search}}      |
 {: #t-category-labels title="Mappings for Categories"}
 
