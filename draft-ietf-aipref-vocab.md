@@ -149,17 +149,48 @@ The process for managing multiple statements of preference is defined in {{combi
 An exemplary syntax for statements of preference is defined in {{format}}.
 
 
-## Conformance
+## Understanding Preferences {#understanding}
 
 This document and {{ATTACH}}
 describe how statements of preference are associated with assets.
-An implementation is conformant to these specifications
-if it correctly follows all normative requirements that apply to it.
 
-The process of obtaining a statement of preference has very limited scope
-for variation between implementations.
+The goal of these specifications is to ensure
+that the recipient of an asset knows
+what preferences have been associated with the asset.
+What a recipient then does with that information depends on many factors;
+see {{applicability}}.
 
-## Applicability and Effect {#applicability}
+There are also some caveats that need to be considered
+as it relates to understanding what the preferences for a given asset are
+(as opposed to what actions might then follow).
+
+A recipient can only understand preferences expressed
+through mechanisms it has implemented.
+Those methods might be limited to those in {{ATTACH}}
+or it could also include other methods (see {{Section 1.3 of ATTACH}}).
+If a preference is associated with an asset
+using a method the recipient does not understand or recognize,
+the recipient will remain ignorant of that preference.
+
+Depending on the way in which preferences are expressed,
+a recipient might be unable to tell the source of the preference.
+Unless the source is explicitly identified,
+no assumptions can be made about where a preference originates.
+For example, preferences in robots.txt (see {{Section 3 of ATTACH}})
+only implies that a server
+is the source of those preferences.
+
+A method of associating preferences with assets
+could explicitly define the source of the preferences,
+which might involve authentication.
+Otherwise, no assumptions can be made about the origin of preferences.
+The apparent source of preferences
+could be representing their own preferences,
+the preferences of others,
+or the synthesis of multiple preferences from different sources.
+
+
+## Applying Preferences {#applicability}
 
 This specification provides a set of definitions for different
 categories of use, plus a system for associating simple
