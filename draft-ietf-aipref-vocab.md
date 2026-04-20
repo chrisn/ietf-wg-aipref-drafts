@@ -230,9 +230,9 @@ and the applicable legal context.
 
 # Vocabulary Definition {#vocab}
 
-This section defines the categories of use in the vocabulary.
-
 NOTE: This section does not yet have consensus; see "Note to Readers" above.
+
+This section defines the categories of use in the vocabulary.
 
 
 ## AI Model Training Category {#train-ai}
