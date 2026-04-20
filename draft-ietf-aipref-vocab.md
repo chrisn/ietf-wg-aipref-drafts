@@ -63,6 +63,9 @@ regarding how digital assets are used by automated processing systems.
 This vocabulary allows for the declaration
 of restrictions or permissions for use of digital assets by such systems.
 
+--- note_Note_to_Readers
+
+As detailed below, this is a working document. Its contents DO NOT REFLECT CONSENSUS of the Working Group either in whole or part. Presense or absense of any particular text does not indicate consensus, and this document is published solely as a basis of further discussion.
 
 --- middle
 
@@ -105,6 +108,8 @@ Declaring party:
 
 
 # Statements of Preference {#model}
+
+NOTE: This section does not yet have consensus; see "Note to Readers" above.
 
 The vocabulary is a set of categories,
 each of which is defined to cover a class of usage for assets.
@@ -226,6 +231,8 @@ and the applicable legal context.
 # Vocabulary Definition {#vocab}
 
 This section defines the categories of use in the vocabulary.
+
+NOTE: This section does not yet have consensus; see "Note to Readers" above.
 
 
 ## AI Model Training Category {#train-ai}
