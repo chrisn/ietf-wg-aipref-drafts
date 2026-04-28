@@ -235,7 +235,7 @@ NOTE: This section does not yet have consensus; see "Note to Readers" above.
 This section defines the categories of use in the vocabulary.
 
 
-## AI Model Training Category {#train-ai}
+## AI Model Training {#train-ai}
 
 The act of using an asset
 in the production or refinement of an AI model
@@ -335,10 +335,10 @@ This document takes no position on what default might be assigned.
 
 ## Combining Preferences {#combine}
 
-The application might have multiple statements of preference,
+an application might receive multiple statements of preference,
 obtained using different methods
 or from different declaring parties.
-This might result in conflicting answers.
+This might result in conflicting preferences.
 
 Absent some other means of resolving conflicts,
 the following process applies to each usage category:
@@ -530,7 +530,8 @@ as described in {{model}}.
 ## Alternative Formats {#mapping}
 
 This format is only an exemplary way to represent preferences.
-The data model described in {{model}}, can be used without this serialization.
+The data model described in {{model}}
+can be used without this serialization.
 
 Any alternative format needs to define the mapping
 both from that format to the model used in this document
