@@ -197,15 +197,6 @@ or the synthesis of multiple preferences from different sources.
 
 ## Applying Preferences {#applicability}
 
-This specification provides a set of definitions for different
-categories of use, plus a system for associating simple
-preferences to each (allow, disallow, or unknown; see {{model}}).
-
-The categories of use in the vocabulary (see {{vocab}})
-describe concrete, observable outcomes that depend on the use of assets,
-they seek to avoid describing internal details of implementations
-or their architecture.
-
 This specification only seeks to ensure that preferences can be understood,
 not provide a means of ensuring that preferences are respected.
 There may be considerations that take precedence over any stated preferences,
@@ -233,6 +224,10 @@ and the applicable legal context.
 NOTE: This section does not yet have consensus; see "Note to Readers" above.
 
 This section defines the categories of use in the vocabulary.
+
+They describe concrete, observable outcomes that depend on the use of assets,
+they seek to avoid describing internal details of implementations
+or their architecture.
 
 
 ## AI Model Training {#train-ai}
